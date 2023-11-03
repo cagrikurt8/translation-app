@@ -1,6 +1,5 @@
 from azure.cognitiveservices.speech import SpeechConfig, AudioConfig, SpeechSynthesizer, ResultReason
 from azure.cognitiveservices.speech.translation import TranslationRecognizer, SpeechTranslationConfig
-import os
 
 SPEECH_KEY = "1410a78745054fd2a85ef2a031b02434"
 SPEECH_REGION = "westeurope"
