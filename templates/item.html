@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>Item Details</title>
+    <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+</head>
+<body>
+    <h1>ID: {{ id }}</h1>
+    <h1>Translation: {{ translation }}</h1> 
+    <form action="{{ url_for('translate') }}">  
+        <button>Translate</button>  
+     </form>
+</body>
+</html>
